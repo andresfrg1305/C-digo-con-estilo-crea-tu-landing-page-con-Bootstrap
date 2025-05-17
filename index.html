@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Apple - Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-dark text-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+            alt="Apple Logo"
+            height="30"
+            class="bg-light rounded px-1"
+          />
+          iPhone 16
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Características</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="text-center">
+      <div class="container-fluid p-0">
+        <img
+          src="appleintelligence.jpg"
+          class="img-fluid w-100"
+          alt="Apple Vision Pro"
+        />
+      </div>
+      <div class="bg-light py-4 py-4 text-dark">
+        <h1 class="display-4">Mira lo más destacado</h1>
+        <p class="lead">Una nueva era ha comenzado.</p>
+        <div
+          id="carouselDestacados"
+          class="carousel slide mb-4"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner rounded">
+            <div class="carousel-item active">
+              <img
+                src="Nuevobotoncamara.jpg"
+                class="d-block w-100"
+                alt="Imagen 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="nuevochip.jpg" class="d-block w-100" alt="Imagen 2" />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="calidaddefoto.jpg"
+                class="d-block w-100"
+                alt="Imagen 3"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="bateriaoptimizada.jpg"
+                class="d-block w-100"
+                alt="Imagen 4"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselDestacados"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselDestacados"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+
+        <a href="#features" class="btn btn-dark">Explorar ahora</a>
+      </div>
+    </section>
+
+    <!-- Carrusel -->
+    <section class="bg-light">
+      <div class="container py-5">
+        <div id="carouselApple" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="iphoneblanco.png"
+                class="d-block w-100"
+                alt="Iphone Blanco"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="iphonemorado.png"
+                class="d-block w-100"
+                alt="Iphone Morado"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="iphonenegro.png"
+                class="d-block w-100"
+                alt="Iphone Negro"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="iphonerosa.png"
+                class="d-block w-100"
+                alt="Iphone Rosa"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="iphoneverde.png"
+                class="d-block w-100"
+                alt="Iphone Verde"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselApple"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselApple"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Características -->
+    <section id="features" class="py-5 bg-black text-white">
+      <div class="container">
+        <h2 class="text-center mb-4">Características destacadas</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 bg-dark text-white">
+              <img
+                src="coloresiphone.webp"
+                class="card-img-top"
+                alt="Nuevo diseño"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Nuevo Diseño</h5>
+                <p class="card-text">
+                  Integra un toque diferente, para alguien diferente.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 bg-dark text-white">
+              <img
+                src="unnuevoatajo.jpg"
+                class="card-img-top"
+                alt="Nuevo atajo"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  Botón de accion, Un atajo a tus favoritos
+                </h5>
+                <p class="card-text">
+                  El Botón de Acción del iPhone 16 te lleva volando a las
+                  funcionalidades que más usas. Mantenlo presionado para
+                  encender la linterna, grabar una nota de voz y activar el modo
+                  Silencio o cualquier otra funcionalidad.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 bg-dark text-white">
+              <img
+                src="controldecamara.jpg"
+                class="card-img-top"
+                alt="Botón camara"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">
+                  Control de la Cámara, Haz zoom, Haz clic, Hazlo en un flash.
+                </h5>
+                <p class="card-text">
+                  Con el Control de la Cámara no habrá momento que se te escape.
+                  Esta funcionalidad te permite acceder fácilmente a las
+                  herramientas de la cámara para hacer fotos y videos
+                  impresionantes en tiempo récord. Sólo desliza el dedo para
+                  ajustar la exposición o la profundidad de campo, pasar de un
+                  lente a otro o usar el zoom digital hasta encontrar el
+                  encuadre ideal.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contact" class="py-5 bg-black text-white">
+      <div class="container">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required />
+          </div>
+          <div class="col-md-6">
+            <label for="correo" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="correo" required />
+          </div>
+          <div class="col-12">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea
+              class="form-control"
+              id="mensaje"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-outline-light">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-center text-white py-3">
+      <p class="mb-0">&copy; 2025 Apple | Todos los derechos reservados</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
